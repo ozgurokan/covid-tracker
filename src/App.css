@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(223, 223, 223);
+}
+
+.App{
+    margin: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    font-size: 128px;
+    text-align: center;
+}
+
+.card-list{
+    margin: 5em;
+    display: flex;
+    height: 12em;
+    
+}
+
+.card{
+    margin-left: 3em;
+    width: 12em;
+    height: 100%;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.card-header{
+    font-size: 1.2em;
+    font-weight: 550;
+}
+.card-data{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.card-last-update {
+    font-weight: 550;
+}
+.card-last-update span{
+    font-weight: 100;
+    color: rgb(59, 59, 59);
+}
+.card-info{
+    font-size: 1.1em;
+    font-weight: 540;
+}
+.infected {
+    background-color: rgb(97, 130, 200);
+    box-shadow: 0px 6px blue;
+}
+.recovered {
+    background-color: rgb(105, 210, 168);
+    box-shadow: 0px 6px green;  
+}
+.deaths{
+    background-color: rgb(210, 116, 105);
+    box-shadow: 0px 6px red;  
+}
+.active{
+    background-color: rgb(204, 201, 95);
+    box-shadow: 0px 6px yellow; 
+}
+
+.chart{
+    padding: 5em;
+    width: 40%;
+    height: 40%;
+
+}
+.loading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
