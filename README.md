@@ -8,7 +8,7 @@
 - Kartların hemen altına yerleştireceğiniz bir dropdown içerisinde ülkeleri listelemeniz gerekiyor. Buradan seçilen herhangi ülkenin detay bilgileri görüntülenebilmelidir.
 - Sayfanın altına yerleştireceğiniz bölümde ise verileri grafik olarak göstermeniz gerekiyor.
 ------------
-**Demo için [tıklayın]()**
+**Demo için [tıklayın](https://peaceful-gelato-e97c91.netlify.app/)**
 
 ------------
 - React 
