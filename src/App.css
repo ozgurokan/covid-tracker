@@ -11,9 +11,22 @@ body{
     align-items: center;
     justify-content: center;
 }
+.headerWrapper{
+    text-align: center;
+}
 .header{
     font-size: 128px;
     text-align: center;
+    margin-bottom: 0.3em;
+}
+.header-text-inner1{
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+    font-weight: 550;
+}
+.header-text-inner2{
+    font-weight: 550;
+    opacity: 0.5;
 }
 
 .card-list{
