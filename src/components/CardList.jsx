@@ -5,8 +5,7 @@ import Loading from './Loading';
 function Card() {
     const country = useSelector((state) => state.region.country);
     const covidData = useSelector((state) => state.covid.data);
-    const covidLoading = useSelector((state) => state.covid.isLoading);
-    const regionLoading = useSelector((state) => state.region.isLoading);
+
 
     const stringData = (data) => {
         let result = "";
@@ -23,11 +22,7 @@ function Card() {
 
 
     return (
-        <>
-
-        {
-            (covidLoading || regionLoading) ? <Loading/> : 
-            <div className='card-list'>
+        <div className='card-list'>
         <div className='card infected'>
             <div className="card-header">
                 Infected
@@ -65,10 +60,6 @@ function Card() {
             <div className='card-iso'>{country === "" ? "All" : country}</div>
         </div>
         </div>
-        }
-        
-
-        </>
     )
 }
 

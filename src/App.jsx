@@ -38,10 +38,10 @@ function App() {
       (regionLoading == true || covidLoading == true) ? <Loading/> : 
       <div className='App'>
 
-    <CardList/>
-    <Input/>
-    <Graph/>
-    </div>
+        <CardList/>
+        <Input/>
+        <Graph/>
+      </div>
     }
     
     </>
