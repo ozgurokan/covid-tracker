@@ -28,6 +28,11 @@ body{
     font-weight: 550;
     opacity: 0.5;
 }
+.header-issue-note{
+    margin-top: 0.7em;
+    font-size: 0.8em;
+    opacity: 0.7;
+}
 
 .card-list{
     margin: 5em;
